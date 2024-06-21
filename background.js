@@ -22,7 +22,7 @@ function scrapeMediaFiles() {
         const href = anchor.getAttribute('href');
         const fileName = href.split('/').pop();
         if (!fileName) return;
-        if (!fileName.match(/\.(mkv|mp4|avi|mov)$/i)) return;
+        if (!fileName.match(/\.(mkv|mp4|avi|mov|webm)$/i)) return;
         if (href.startsWith('http') || href.startsWith('https')) {
             mediaFiles.push(href);
             return;
