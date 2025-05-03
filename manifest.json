@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Pot Player Playlist Creator",
-  "version": "1.0",
-  "description": "Scrape media files from a page and create a Playlist file for Pot Player",
+  "version": "2.0",
+  "description": "Scrape media files from a page and create a Playlist file for Pot Player and/or also download the media files.",
   "author": "Wahid Sadique Koly",
   "permissions": [
     "activeTab",
