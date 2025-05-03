@@ -22,7 +22,7 @@ function scrapeMediaFiles() {
         const href = anchor.getAttribute('href');
         const fileName = href.split('/').pop();
         if (!fileName) return;
-        if (!fileName.match(/\.(mkv|mp4|avi|mov|webm)$/i)) return;
+        if (!fileName.match(/\.(mp4|mkv|avi|mov|wmv|flv|webm|mpeg|mpg|m4v|3gp|3g2|ts|mts|m2ts|vob|ogv|divx|xvid|rm|rmvb|asf|mp3|wav|ogg|m4a|aac|flac|alac|wma|aiff|ape|opus)$/i)) return;
         if (href.startsWith('http') || href.startsWith('https')) {
             mediaFiles.push(href);
             return;
