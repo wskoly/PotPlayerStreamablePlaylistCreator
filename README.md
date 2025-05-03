@@ -26,7 +26,7 @@ This Chrome extension allows you to generate streamable playlists for **POT Play
 1. 📌 **Pin the extension** to the Chrome toolbar for quick access.
 2. 🌍 **Navigate to a web directory** containing media files (e.g., videos, audio).
 3. 🧩 **Click the extension icon** in the toolbar.
-4. 🎵 **Click "Download Playlist File"** to generate and download a `.m3u` playlist.  
+4. 🎵 **Click "Download Playlist File"** to generate and download a `.dpl` playlist.  
    - Open this file in POT Player to stream media directly from the site.
 5. 📥 Or click **"Download All Media Files"** to begin downloading all detected media files. *(Added in version 2)*
 
